@@ -1,2 +1,2 @@
 # benjamincollu.github.io
- Osobná stránka hostovaná prostredníctvom Github Pages
+ Osobná stránka hostovaná prostredníctvom Github Pages, napísaná v HTML, JavaScripte a CSS.
