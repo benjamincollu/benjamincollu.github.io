@@ -81,6 +81,11 @@ hr.dashed {
         gap: 1rem;
     }
 }
+@media (max-width: 950px) {
+    .timeline {
+        width: 100%;
+    }
+}
 .timeline a {
     font-family: 'Poppins', serif;
     font-weight: 400;
