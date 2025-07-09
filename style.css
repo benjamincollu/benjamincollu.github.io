@@ -1,16 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 body {
-    margin: 1rem;
     background-color: #272727;
     color: #f8ebc1;
     position: relative;
-    margin-left: 1.5rem;
+    margin: 1rem 1.5rem;
 }
 .title {
     font-family: 'Poppins', serif;
     font-weight: 700;
     font-size: 3.5em;
     margin-bottom: 0;
+    margin-top: 0;
 }
 h1 {
     font-family: 'Poppins', serif;
@@ -34,6 +34,17 @@ h1 {
     display: flex;
     flex-wrap: wrap;
     gap: 1rem;
+}
+@media (max-width: 1235px) {
+    .badges p {
+        margin: 0;
+    }
+    .source {
+        display: none;
+    }
+    .badges {
+        margin-bottom: 1rem;
+    }
 }
 .fa-solid + .fa-solid {
     margin-left: 5rem;
@@ -60,7 +71,7 @@ hr.dashed {
 .right img {
     width: 256px;
 }
-.timeline {
+.socials {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -82,11 +93,11 @@ hr.dashed {
     }
 }
 @media (max-width: 950px) {
-    .timeline {
-        width: 100%;
+    .socials {
+        width: 80%;
     }
 }
-.timeline a {
+.socials a {
     font-family: 'Poppins', serif;
     font-weight: 400;
     font-size: 1.2em;
@@ -115,4 +126,21 @@ hr.dashed {
 .projects {
     gap: 5rem !important;
     font-size: 0.9em;
+}
+@media (max-width: 1235px) {
+    .projects {
+        gap: 1rem !important;
+    }
+}
+header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+a {
+    color: inherit;
+}
+.source {
+    font-size: 5em;
 }
