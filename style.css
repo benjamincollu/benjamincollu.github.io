@@ -112,3 +112,7 @@ hr.dashed {
     text-align: center;
     opacity: 0.5;
 }
+.projects {
+    gap: 5rem !important;
+    font-size: 0.9em;
+}
