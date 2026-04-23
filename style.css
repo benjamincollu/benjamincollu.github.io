@@ -111,6 +111,9 @@ hr.dashed {
 .left, .right {
     max-width: 40rem;
 }
+.center {
+    max-width: 70rem;
+}
 .right {
     align-self: center;
 }
@@ -122,6 +125,10 @@ hr.dashed {
 .footer {
     text-align: center;
     opacity: 0.5;
+}
+.education {
+    gap: 10rem !important;
+    font-size: 0.9em;
 }
 .projects {
     gap: 5rem !important;
