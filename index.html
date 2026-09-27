@@ -1,92 +1,213 @@
-﻿<html lang="sk-sk">
-
+<!doctype html>
+<html lang="en">
 <head>
-    <title>Benjamín Collu</title>
-    <link rel="stylesheet" href="style.css">
-    <meta charset="UTF-8">
-    <meta name="description" content="Personal portfolio of Benjamín Collu, UNIZA student focused on information and network technologies, programming, embedded systems, UI/UX and graphic design.">
-    <meta name="keywords" content="Benjamín Collu, portfolio, UNIZA, University of Žilina, programming, Java, C++, C#, Python, PHP, embedded systems, ESP32, UI UX design, graphic design">
-    <meta name="author" content="Benjamín Collu">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-</head>
-
-<body>
-    <header>
-        <div class="info">
-            <p class="title">Benjamín Collu <i class="fa-solid fa-code"></i></p>
-
-            <div class="badges">
-                <p><i class="fa-solid fa-at"></i> benjamincollu@gmail.com</p>
-                <p><i class="fa-solid fa-graduation-cap"></i> UNIZA</p>
-                <p><i class="fa-solid fa-toolbox"></i> C++, C#, Java, PHP, Python</p>
-            </div>
-        </div>
-        <div class="source">
-            <i class="fa-solid fa-compact-disc fa-spin" style="--fa-animation-duration: 10s;"></i>
-        </div>
-    </header>
-
-    <hr class="dashed">
-
-    <section class="hero">
-        <div class="left">
-            <h1 class="header"># something about me</h1>
-            <p>My name is Benjamín Collu, I'm 20 years old and I come from the town of <b>Spišská Belá</b>, Slovakia.</p>
-            <p>I am currently a student at the Faculty of Management Science and Informatics at the <strong>University of Žilina</strong>, where I focus on Information and Network Technologies.</p>
-            <p>I am passionate about programming, embedded systems, graphics design and modern technologies. I enjoy applying my knowledge in practice, especially in projects involving microcontrollers, automation, and software development. In my free time, I focus on <strong>programming</strong>, <strong>UI/UX design</strong>, and <strong>graphic design</strong>.</p>
-        </div>
-        <div class="right">
-            <img src="img/Z61_2648-2.jpg" alt="Benjamín Collu" class="portrait">
-        </div>
-    </section>
-
-    <div class="socials">
-        <a href="https://www.linkedin.com/in/benjam%C3%ADn-collu-776346394/"><i class="fa-brands fa-linkedin"></i> LinkedIn</a>
-        <a href="https://github.com/benjamincollu"><i class="fa-brands fa-github"></i> GitHub</a>
-        <a href="mailto:benjamincollu@gmail.com"><i class="fa-solid fa-envelope"></i> Email</a>
-        <a href="https://steamcommunity.com/id/kongensgardenilsolav/"><i class="fa-brands fa-steam"></i> Steam</a>
-        <a href="https://www.instagram.com/bendziikk/"><i class="fa-brands fa-instagram"></i> Instagram</a>
-    </div>
-
-    <section class="hero education">
-        <div class="center">
-            <h1 class="header"># education & skills</h1>
-            <p>I am currently studying at the <strong>Faculty of Management Science and Informatics, University of Žilina</strong>, enrolled in the study programme <strong>Information and Network Technologies (2024 – present)</strong>.</p>
-            <p>Previously, I graduated from the <strong>Private Secondary Vocational School in Poprad</strong> (2020 – 2024), where I specialized in <strong>Intelligent Technologies</strong>. During my studies, I developed a strong foundation in programming, electronics, and applied technologies.</p>
-            <p>I dedicate a significant amount of my time to personal projects focused on microcontrollers, programming, and system design.</p>
-            <p class="margintop">My technical skill set includes <strong>Java, C#, C++, Python, PHP</strong>, along with experience in <strong>Linux, Docker, networking, and system administration</strong>. I am proficient in Adobe Illustrator and Adobe Photoshop.</p>
-            <ul class="timeline">
-                <li class="event" data-date="2024 - present">
-                    <h3>University of Žilina - Faculty of Management Science and Informatics</h3>
-                    <p>Information and Network Technologies</p>
-                </li>
-                <li class="event" data-date="2020 - 2024">
-                    <h3>Private Secondary Vocational School in Poprad, Tatranská akadémia</h3>
-                    <p>2559 M Intelligent Technologies</p>
-                </li>
-            </ul>
-        </div>
-    </section>
-
-    <section class="hero projects">
-        <div class="left">
-            <h1 class="header"># projects & experience</h1>
-            <p>I have a strong interest in embedded systems, particularly microcontroller platforms such as the <strong>ESP32</strong>.</p>
-            <p>As part of my graduation project, I developed <strong>deskhelper</strong> – a smart assistant device designed to simplify everyday workflows. The device features a graphical interface displaying commonly used tools such as a <strong>Spotify player</strong>, calendar, and time dashboard.</p>
-            <p>The system supports user interaction through physical buttons and allows further expansion via custom applications utilizing the device’s I/O pins.</p>
-            <p>In addition to development, I am actively involved at the university as a <strong>student representative</strong> for my study programme. I also contribute to creating networking configuration manuals and assist in managing networking laboratories at the Department of Communications and Information Systems.</p>
-        </div>
-        <div class="right">
-            <img src="img/fotkazariadeniasprehravanouhudobnouskladbou.jpeg" alt="deskhelper" class="portrait">
-        </div>
-    </section>
-
-    <section class="footer">
-        <p>Last updated: 24.04.2026</p>
-    </section>
-
-</body>
-
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Personal portfolio of Benjamín Collu, UNIZA student focused on information and network technologies, programming, embedded systems, UI/UX and graphic design.">
+<meta name="theme-color" content="#272727"><title>Benjamín Collu - Personal portfolio</title>
+<link rel="icon" href="favicon.svg?v=blue-bc" type="image/svg+xml">
+<link rel="stylesheet" href="css/style.css?v=heading-above-education-skills">
 <script src="https://kit.fontawesome.com/34a3fa1806.js" crossorigin="anonymous"></script>
+<script src="scripts/script.js" defer>
+</script>
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+<div class="intro-strip">
+  <div class="ticker ticker-inverted" role="region" aria-label="Email, university and programming languages">
+    <div class="ticker-window"><div class="ticker-track">
+      <div class="ticker-group"><span class="ticker-item"><i class="fa-solid fa-at" aria-hidden="true"></i> benjamincollu@gmail.com</span><span class="ticker-item"><i class="fa-solid fa-graduation-cap" aria-hidden="true"></i> UNIZA</span><span class="ticker-item"><i class="fa-solid fa-toolbox" aria-hidden="true"></i> C++, C#, Java, PHP, Python</span></div>
+      <div class="ticker-group" aria-hidden="true"><span class="ticker-item"><i class="fa-solid fa-at" aria-hidden="true"></i> benjamincollu@gmail.com</span><span class="ticker-item"><i class="fa-solid fa-graduation-cap" aria-hidden="true"></i> UNIZA</span><span class="ticker-item"><i class="fa-solid fa-toolbox" aria-hidden="true"></i> C++, C#, Java, PHP, Python</span></div>
+    </div></div>
+  </div>
+</div>
+<main id="main">
+<section class="hero wrap" aria-labelledby="hero-title">
+<div class="hero-icon-cloud" aria-hidden="true">
+  <i class="fa-solid fa-code"></i>
+  <i class="fa-solid fa-microchip"></i>
+  <i class="fa-solid fa-diagram-project"></i>
+  <i class="fa-solid fa-server"></i>
+  <i class="fa-solid fa-mobile-screen-button"></i>
+  <i class="fa-solid fa-sliders"></i>
+  <i class="fa-solid fa-network-wired"></i>
+  <i class="fa-solid fa-gear"></i>
+  <i class="fa-solid fa-file-code"></i>
+  <i class="fa-solid fa-share-nodes"></i>
+  <i class="fa-solid fa-mountain"></i>
+  <i class="fa-solid fa-terminal"></i>
+</div>
+<div class="hero-copy">
+<h1 id="hero-title">Benjamín<br>Collu
+</h1>
+<p class="study-line">Information &amp; Network Technologies <span>UNIZA</span></p>
+<p class="hero-description">I am currently a student at the Faculty of Management Science and Informatics at the <strong>University of Žilina</strong>, where I focus on Information and Network Technologies.</p>
+<div class="hero-highlights" aria-label="Current roles">
+  <span><i class="fa-solid fa-shield-halved" aria-hidden="true"></i> IT Tester · UNIQA Insurance Group</span>
+  <span><i class="fa-solid fa-landmark" aria-hidden="true"></i> Member of the Academic Senate of the University of Žilina</span>
+</div>
+<div class="hero-actions"><a class="button" href="#work">Projects &amp; experience <span>↘</span></a>
+</div>
+</div>
+<figure class="portrait-card">
+<img src="img/Z61_2648-2.jpg" alt="Benjamín Collu outdoors" width="900" height="1050" fetchpriority="high">
 
-</html>
+
+</figure>
+</section>
+<nav class="social-bar wrap" aria-label="Social media and contact">
+  <a href="https://www.linkedin.com/in/benjam%C3%ADn-collu-776346394/" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-linkedin" aria-hidden="true"></i><span>LinkedIn</span></a>
+  <a href="https://github.com/benjamincollu" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-github" aria-hidden="true"></i><span>GitHub</span></a>
+  <a href="mailto:benjamincollu@gmail.com"><i class="fa-solid fa-envelope" aria-hidden="true"></i><span>Email</span></a>
+  <a href="https://steamcommunity.com/id/kongensgardenilsolav/" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-steam" aria-hidden="true"></i><span>Steam</span></a>
+  <a href="https://www.instagram.com/bendziikk/" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-instagram" aria-hidden="true"></i><span>Instagram</span></a>
+</nav>
+<section id="about" class="section wrap about">
+<div>
+<h2># something<br>about me
+</h2>
+</div>
+<div class="about-copy">
+<p>My name is Benjamín Collu, I'm 20 years old and I come from the town of <strong>Spišská Belá</strong>, Slovakia.</p>
+<p>I am passionate about programming, embedded systems, graphics design and modern technologies. I enjoy applying my knowledge in practice, especially in projects involving microcontrollers, automation, and software development. In my free time, I focus on <strong>programming</strong>, <strong>UI/UX design</strong>, and <strong>graphic design</strong>.</p>
+<p>In addition to development, I am actively involved at the university as a <strong>student representative</strong> for my study programme. I also contribute to creating networking configuration manuals and assist in managing networking laboratories at the Department of Communications and Information Systems.</p>
+<p>I am a member of the <strong>Academic Senate of the University of Žilina</strong>, representing the student body in university-level decision-making and contributing to discussions on academic policies and student interests.</p>
+<a class="text-link about-link" href="https://www.linkedin.com/in/benjam%C3%ADn-collu-776346394/" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-linkedin" aria-hidden="true"></i> LinkedIn <span>↗</span></a>
+</div>
+</section>
+<section id="work" class="section wrap">
+<div class="section-heading">
+<div>
+<h2># projects &amp; experience
+</h2>
+</div>
+</div>
+<article class="project featured">
+<div class="project-image"><img src="img/fotkazariadeniasprehravanouhudobnouskladbou.jpeg" alt="The deskhelper device displaying its Spotify music player" width="2048" height="1536" loading="lazy"><span class="image-caption">DESKHELPER / GRADUATION PROJECT</span>
+</div>
+<div class="project-content">
+<p class="eyebrow">EMBEDDED SYSTEMS</p>
+<h3>deskhelper
+</h3>
+<p>As part of my graduation project, I developed <strong>deskhelper</strong> - a smart assistant device designed to simplify everyday workflows.</p>
+<p>The device features a graphical interface displaying commonly used tools such as a <strong>Spotify player</strong>, calendar, and time dashboard.</p>
+<div class="tags"><span>Microcontrollers</span><span>Hardware</span><span>UI design</span>
+</div>
+<div class="project-system">
+<p class="project-system-title">The system</p>
+<p>The system supports user interaction through physical buttons and allows further expansion via custom applications utilizing the device’s I/O pins.</p>
+</div>
+</div>
+</article>
+<div class="project-grid">
+<article class="project small-project">
+<div class="robot-art" aria-hidden="true"><span class="art-label">AUDI DEVELOPMENT CAMP</span><svg viewBox="0 0 500 240" fill="none"><path d="M30 208H470M250 30V208M90 208L250 130L410 208M160 208L250 160L340 208" stroke="currentColor" opacity=".14"/><path d="M245 86L233 135L196 167L181 207M233 135L276 160L298 206M242 99L285 111L317 78M240 98L211 112L178 100" stroke="currentColor" stroke-width="11" stroke-linecap="round" stroke-linejoin="round"/><circle cx="251" cy="57" r="21" stroke="currentColor" stroke-width="9"/><circle cx="326" cy="58" r="9" fill="#bd603f"/><path d="M346 46Q410 10 446 102" stroke="#bd603f" stroke-width="2" stroke-dasharray="5 7"/><path d="M437 96L447 106L451 91" stroke="#bd603f" stroke-width="2"/></svg><span class="art-caption">Python · MuJoCo · Machine learning</span>
+</div>
+<div class="project-content">
+<p class="eyebrow">PROJECT MANAGER · JUL 2026</p>
+<h3>Humanoid robot throwing simulation</h3>
+<p>Leadership and coordination of an international engineering team developing a humanoid robot throwing simulation using <strong>Python, MuJoCo, and machine learning</strong>.</p>
+<div class="tags"><span>Python</span><span>MuJoCo</span><span>Team leadership</span>
+</div>
+</div>
+</article>
+<article class="project small-project">
+<div class="network-art" aria-hidden="true"><span class="art-label">NETWORKING LABORATORIES</span>
+<div class="network-diagram"><span>LAB 01</span><i></i><strong>⌘</strong><i></i><span>LAB 02</span>
+</div><span class="art-caption">Networking configuration guides and educational materials</span>
+</div>
+<div class="project-content">
+<p class="eyebrow">NETWORKING LABORATORY ASSISTANT · 2026-PRESENT</p>
+<h3>Networking laboratories</h3>
+<p>I also contribute to creating <strong>networking configuration manuals</strong> and assist in managing networking laboratories at the Department of Communications and Information Systems.</p>
+<div class="tags"><span>Networking</span><span>Documentation</span><span>Lab support</span>
+</div>
+</div>
+</article>
+</div><a class="text-link about-link github-link" href="https://github.com/benjamincollu" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-github" aria-hidden="true"></i> GitHub <span>↗</span></a>
+</section>
+<section id="journey" class="section wrap experience" aria-labelledby="experience-title">
+<div class="experience-heading"><div><h2 id="experience-title"># work experience</h2></div><a class="text-link about-link" href="https://www.linkedin.com/in/benjam%C3%ADn-collu-776346394/" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-linkedin" aria-hidden="true"></i> LinkedIn <span>↗</span></a></div>
+<div class="experience-list">
+<article class="experience-entry">
+  <div class="employer-mark" aria-hidden="true"><i class="fa-solid fa-shield-halved"></i></div>
+  <div class="experience-body"><h3>IT Tester</h3><p class="employer-name">UNIQA Insurance Group</p><p class="employment-meta">Jul 2026 - present · Part-time · Remote</p><p class="experience-description">Supporting software quality assurance through manual testing, defect reporting, and verification of application requirements in an international insurance environment.</p></div>
+</article>
+<article class="experience-entry experience-group">
+  <div class="employer-mark" aria-hidden="true"><i class="fa-solid fa-graduation-cap"></i></div>
+  <div class="experience-body"><h3>University of Žilina</h3>
+    <div class="university-roles">
+      <section class="university-role"><h4>Member of the Academic Senate of the University of Žilina representing the student body</h4><p class="employment-meta">Jun 2026 - present · Student representation</p><p class="experience-description">Representing the student body in university-level decision-making and contributing to discussions on academic policies and student interests.</p></section>
+      <section class="university-role"><h4>Networking Laboratory Assistant</h4><p class="employment-meta">Feb 2026 - present · Internship · Žilina</p><p class="experience-description">I also contribute to creating networking configuration manuals and assist in managing networking laboratories at the Department of Communications and Information Systems.</p></section>
+      <section class="university-role"><h4>Student Representative - Information and Network Technologies Study Programme Council</h4><p class="employment-meta">Jul 2025 - present · Student representation</p><p class="experience-description">Representation of students in the Information and Network Technologies Study Programme Council, participation in discussions on programme development and quality assurance.</p></section>
+    </div>
+  </div>
+</article>
+
+
+<article class="experience-entry">
+  <div class="employer-mark" aria-hidden="true"><i class="fa-solid fa-car-side"></i></div>
+  <div class="experience-body"><h3>Project Manager</h3><p class="employer-name">Audi Development Camp</p><p class="employment-meta">Jul 2026 · Győr, Hungary</p><p class="experience-description">Leadership and coordination of an international engineering team developing a humanoid robot throwing simulation using Python, MuJoCo, and machine learning.</p></div>
+</article>
+<article class="experience-entry">
+  <div class="employer-mark" aria-hidden="true"><i class="fa-solid fa-pen-nib"></i></div>
+  <div class="experience-body"><h3>Content Writer & Editor</h3><p class="employer-name">Freelance</p><p class="employment-meta">Jun 2019 - Aug 2022 · Online publishing</p><p class="experience-description">Wrote, edited, and proofread articles for multiple online blogs. Created digital content, ensured grammatical accuracy, and adapted writing styles to different audiences and topics.</p></div>
+</article>
+</div>
+</section>
+<section class="section wrap toolkit" aria-labelledby="toolkit-title">
+<div>
+<h2 id="toolkit-title"># education &amp; skills
+</h2>
+<div class="toolkit-education">
+<article><p class="background-date">2024 - 2027</p><h3>Information &amp; Network Technologies</h3><p>University of Žilina<br>Faculty of Management Science and Informatics</p></article>
+<article><p class="background-date">2020 - 2024</p><h3>Intelligent Technologies</h3><p>Tatranská Akadémia, Poprad</p></article>
+</div>
+</div>
+<div class="skill-groups">
+<div>
+<h3><span>01</span> Programming</h3>
+<p>Java · C++ · C# · Python · PHP<br>Linux · Docker · Networking</p>
+</div>
+<div>
+<h3><span>02</span> Embedded systems</h3>
+<p>ESP32 · Embedded systems · MuJoCo<br>Robotics · AI · Reinforcement learning</p>
+</div>
+<div>
+<h3><span>03</span> UI/UX design &amp; graphic design</h3>
+<p>UI/UX · Adobe Illustrator · Adobe Photoshop</p>
+</div>
+</div>
+</section>
+<section class="section wrap certifications" aria-labelledby="certifications-title">
+<h2 id="certifications-title"># certifications</h2>
+<div class="certification-grid">
+  <article class="certification-card"><div class="certification-mark" aria-hidden="true"><i class="fa-solid fa-certificate"></i></div><div><h3>Short Study Programme - AUDI DEVELOPMENT CAMP</h3><p>Széchenyi István Egyetem</p><p class="certification-meta">Issued Jul 2026 · Credential ID SAPML_MIKRO-736/2026</p></div></article>
+  <article class="certification-card"><div class="certification-mark" aria-hidden="true"><i class="fa-solid fa-certificate"></i></div><div><h3>Cambridge English: First (FCE) - Grade A (CEFR C1)</h3><p>Cambridge English</p><p class="certification-meta">Issued May 2024 · Credential ID C6595719</p></div></article>
+  <article class="certification-card"><div class="certification-mark" aria-hidden="true"><i class="fa-solid fa-certificate"></i></div><div><h3>IT Essentials 7</h3><p>Cisco</p><p class="certification-meta">Issued Jun 2021</p></div></article>
+  <article class="certification-card"><div class="certification-mark" aria-hidden="true"><i class="fa-solid fa-certificate"></i></div><div><h3>PCAP: Programming Essentials in Python</h3><p>OpenEDG Python Institute</p><p class="certification-meta">Issued Mar 2026</p></div></article>
+  <article class="certification-card"><div class="certification-mark" aria-hidden="true"><i class="fa-solid fa-certificate"></i></div><div><h3>CCNA: Enterprise Networking, Security, and Automation</h3><p>Cisco</p><p class="certification-meta">Issued Jun 2026</p></div></article>
+  <article class="certification-card"><div class="certification-mark" aria-hidden="true"><i class="fa-solid fa-certificate"></i></div><div><h3>CCNA: Switching, Routing, and Wireless Essentials</h3><p>Cisco</p><p class="certification-meta">Issued Mar 2026</p></div></article>
+  <article class="certification-card"><div class="certification-mark" aria-hidden="true"><i class="fa-solid fa-certificate"></i></div><div><h3>CCNA: Introduction to Networks</h3><p>Cisco</p><p class="certification-meta">Issued May 2025</p></div></article>
+  <article class="certification-card"><div class="certification-mark" aria-hidden="true"><i class="fa-solid fa-certificate"></i></div><div><h3>Cisco Linux Essentials</h3><p>Cisco</p><p class="certification-meta">Issued Jun 2025</p></div></article>
+  <article class="certification-card"><div class="certification-mark" aria-hidden="true"><i class="fa-solid fa-certificate"></i></div><div><h3>DevOps with Docker: Docker basics</h3><p>University of Helsinki</p><p class="certification-meta">Issued Jun 2025</p></div></article>
+  <article class="certification-card"><div class="certification-mark" aria-hidden="true"><i class="fa-solid fa-certificate"></i></div><div><h3>Introduction to Cybersecurity</h3><p>Cisco</p><p class="certification-meta">Issued Feb 2025</p></div></article>
+  <article class="certification-card"><div class="certification-mark" aria-hidden="true"><i class="fa-solid fa-certificate"></i></div><div><h3>Google AI Essentials</h3><p>Google</p><p class="certification-meta">Issued Dec 2025 · Credential ID ZBITGH6YXGUW</p></div></article>
+</div>
+</section>
+<section id="contact" class="contact wrap">
+<div>
+<h2># contact
+</h2>
+<a class="button" href="mailto:benjamincollu@gmail.com">Email <span>↗</span></a>
+</div>
+<div class="contact-side"><a href="mailto:benjamincollu@gmail.com">benjamincollu@gmail.com ↗</a><button id="copy-email" type="button">Copy email address <span aria-hidden="true">⧉</span></button><span id="copy-status" role="status"></span>
+</div>
+</section>
+</main>
+<footer class="wrap"><a class="wordmark" href="#" aria-label="Back to top">bc</a>
+<p>© <span id="year">2026</span> Benjamín Collu · Spišská Belá / Žilina</p>
+<div><a href="https://github.com/benjamincollu" target="_blank" rel="noopener noreferrer">GitHub ↗</a><a href="https://www.linkedin.com/in/benjam%C3%ADn-collu-776346394/" target="_blank" rel="noopener noreferrer">LinkedIn ↗</a><a href="https://www.instagram.com/bendziikk/" target="_blank" rel="noopener noreferrer">Instagram ↗</a>
+</div>
+</footer>
+</body></html>
