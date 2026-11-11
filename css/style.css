@@ -1011,6 +1011,7 @@ strong {
 .study-line span { display: block; font: 12px/1.8 'Courier New', monospace; color: var(--accent); letter-spacing: 1px; }
 .hero-description { font-size: 16px; max-width: 490px; }
 .experience { border-block: 2px solid var(--ink); }
+.volunteering { border-top: 0; }
 .experience-heading { display: flex; justify-content: space-between; align-items: flex-end; gap: 30px; margin-bottom: 42px; }
 .experience-heading h2 { font-size: 42px; }
 .experience-row { display: grid; grid-template-columns: 1fr 1.45fr auto; gap: 40px; padding: 30px 0; border-top: 1px solid var(--line); }
@@ -1357,6 +1358,57 @@ strong {
   line-height: 1.6;
 }
 
+.languages {
+  border-top: 2px solid var(--ink);
+}
+
+.languages h2 {
+  font-size: 52px;
+  line-height: 1.08;
+  letter-spacing: -2px;
+  white-space: nowrap;
+}
+
+.language-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 24px;
+  margin-top: 42px;
+}
+
+.language-card {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+  padding: 24px;
+  border: 1px solid var(--line);
+  background: rgba(114, 124, 245, .045);
+}
+
+.language-card > span {
+  flex: 0 0 46px;
+  height: 46px;
+  display: grid;
+  place-items: center;
+  border: 1px solid rgba(114, 124, 245, .4);
+  background: rgba(114, 124, 245, .14);
+  color: var(--ink);
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: .5px;
+}
+
+.language-card h3 {
+  margin: 0 0 4px;
+  font-size: 18px;
+}
+
+.language-card p {
+  margin: 0;
+  color: var(--muted);
+  font-size: 13px;
+}
+
 .toolkit-education {
   display: grid;
   grid-template-columns: 1fr;
@@ -1436,11 +1488,16 @@ strong {
   .experience-heading h2,
   .toolkit h2,
   .certifications h2,
+  .languages h2,
   .contact h2 {
     font-size: clamp(25px, 8vw, 42px);
   }
 
   .certification-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .language-grid {
     grid-template-columns: 1fr;
   }
 
